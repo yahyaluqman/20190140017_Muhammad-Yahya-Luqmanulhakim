@@ -1,0 +1,48 @@
+/* .text3{
+    font-size: 100px;
+            color: orange;
+}
+
+.kotak{
+    background-color: blue;
+    color: white;
+} */
+
+*{
+    font-family: Arial;
+}
+
+.selection-atas{
+    text-align: center;
+    color: green;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+.selection-bawah{
+    display: flex;
+    justify-content: center;
+}
+
+/* tampilan tablet sekitar 768px sampai 992px */
+@media(min-width: 768px) and (max-width: 992px){
+    .selection-atas{
+        color: yellow;
+    }
+}
+
+/* CSS cuma ngena di atas 992 */
+/* dekstop device */
+/* media query */
+@media(min-width: 922px){
+    .selection-atas{
+        color: red;
+    }
+
+    .selection-bawah{
+        display: flex;
+        justify-content: start;
+    }
+}
